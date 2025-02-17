@@ -1,7 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Javabek {
 //_____________________________________________________________________________________________________
@@ -20,7 +20,6 @@ public class Javabek {
             myReader.close();
         } catch (FileNotFoundException e) {
             System.out.println("Файл не найден: " + filename);
-            e.printStackTrace();
             return null;
         }
         
